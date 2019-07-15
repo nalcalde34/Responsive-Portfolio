@@ -1,3 +1,4 @@
+
 body {
 font-family: Arial, Helvetica, sans-serif;
 line-height: 34px;
@@ -143,33 +144,50 @@ h2 {
 .work {
     position: relative;
     float: left;
-    width: 274px;
+    /* width: 300px;
+    max-height: 400px;
     margin: 20px 0 25px;
-    overflow: auto;
+    overflow: auto; */
+}
+
+#p1Img{
+    max-width: 275px;
+    height: 200px;
+    border: 5px solid #4aaaa5;
 }
 
 .work:nth-child(even) {
     margin-right: 40px;
 }
 
-.work img {
-    width: 100%;
-    border: 0 none;
-    max-width: 200px;
-    max-height: 200px;
-}
 
-.work h3 {
+.work h5, p {
     position: relative;
     bottom: 20px;
     width: 100%;
-    padding: 15px;
+    padding: 1px;
     margin-bottom: 0;
-    font-weight: 300;
+    font-weight: 350;
     line-height: 30px;
     text-align: center;
+    color: #4aaaa5;
     background-attachment: #4aaaa5;
     border-bottom: 0;
+}
+
+.work p {
+    position: relative;
+    bottom: 20px;
+    width: 50%;
+    margin-bottom: 0;
+    font-weight: 200;
+    line-height: 40px;
+    text-align: center;
+    color: #4aaaa5;
+}
+
+.work p:hover {
+    font-size: 120%;
 }
 
 
