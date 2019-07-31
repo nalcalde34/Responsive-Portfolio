@@ -1,10 +1,9 @@
-
 body {
 font-family: Arial, Helvetica, sans-serif;
 line-height: 34px;
 font-size: 18px;
 color: #777777;
-background-image: url("assets/images/white-waves");
+background-image: url("../images/white-waves.png");
 }
 
 * {
@@ -22,15 +21,7 @@ h1,
 h2,
 h3,
 p {
-    margin-bottom: 20px;
-}
-
-p {
-    float: right;
-}
-
-p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 h1,
@@ -43,9 +34,9 @@ h4 {
 }
 
 h1 {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
-    line-height: 49px;
+    line-height: 10px;
     border-bottom: 3px solid #dddddd;
 }
 
@@ -70,7 +61,7 @@ h3 {
 #logo {
     float: left;
     width: 250px;
-    height: 90px;
+    height: 75px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 700;
@@ -108,7 +99,7 @@ footer {
     background-color: #666666;
     color: #ffffff;
     color: #cccccc;
-    padding: 30px 0;
+    padding: 5px 0;
     clear: both;
     font-size: 12px;
     text-align: center;
@@ -118,9 +109,9 @@ footer {
 
 h3,
 h2 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-bottom: 15px;
-    line-height: 22px;
+    line-height: 15px;
     border-bottom: 2px solid #eeeeee;
 }
 
@@ -133,10 +124,20 @@ h2 {
     float: left;
     width: 100%;
     max-width: 960px;
-    padding: 30px;
+    padding: 12px;
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
+}
+
+.main-section p {
+    color: #4aaaa5;
+}
+
+#indexFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /*Portfolio */
@@ -156,13 +157,21 @@ h2 {
     border: 5px solid #4aaaa5;
 }
 
+#p2Img{
+    max-width: 275px;
+    height: 200px;
+    border: 5px solid #4aaaa5;
+}
+
+
 .work:nth-child(even) {
     margin-right: 40px;
 }
 
 
-.work h5, p {
+.work h5 {
     position: relative;
+    float: center;
     bottom: 20px;
     width: 100%;
     padding: 1px;
@@ -177,6 +186,7 @@ h2 {
 
 .work p {
     position: relative;
+    float: left;
     bottom: 20px;
     width: 50%;
     margin-bottom: 0;
@@ -187,7 +197,13 @@ h2 {
 }
 
 .work p:hover {
-    font-size: 120%;
+    opacity: 0.5;
+}
+
+#portFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 
